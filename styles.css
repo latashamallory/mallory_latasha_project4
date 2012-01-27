@@ -1,0 +1,60 @@
+/*Music App
+Latasha Mallory
+Term:  1201
+*/
+
+body {
+font-family:Arial, Helvetica, sans-serif;
+width:571px;
+margin:auto;
+padding:10px;
+}
+
+#site-wrapper {
+background:url(../img/iphonebg.jpg) no-repeat;
+height:577px;
+padding-top:96px;
+padding-bottom:96px;
+}
+
+#content {
+width:480px;
+height:690px;
+overflow:scroll;
+}
+
+h1 {
+border:2px solid #000;
+background:#343940;
+font:small-caps bold 33px Arial;
+color:#f2f2f2;
+margin:10px 20px;
+padding:10px;
+}
+
+label {
+font:small-caps 13px Arial;
+}
+
+fieldset {
+border:2px solid #000;
+background:#a6a6a6;
+font:small-caps bold 16px Arial;
+color:#f2f2f2;
+margin:10px 20px;
+padding:10px;
+}
+
+option {
+font:small-caps 13px Arial;
+atext-decoration:none;
+}
+
+p {
+color:red;
+font-family:Arial;
+font:italic small-caps bold 9px Arial;
+letter-spacing:.08cm;
+text-align:left;
+text-decoration:underline;
+}

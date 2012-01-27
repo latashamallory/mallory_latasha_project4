@@ -1,0 +1,59 @@
+<!--Music App-->
+<!--Latasha Mallory-->
+<!--Term:  1201-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="An app that saves your music into an organized library." />
+		<meta name="keywords" content="music, build music library, Music Library Builder" />
+		<meta name="robots" content="index, follow" />
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<title>My First Music App</title>
+		<link rel="stylesheet" href="styles.css" type="text/css"/>
+	</head>
+	<body>
+		<header><h1 id="test">Song Library</h1></header>
+		<fieldset>
+		<nav>
+			<a href="#" id="clear">Clear Stored Data Access Playlist</a>
+			<a href="#" id="displayLink">Display Data</a>
+			<a href="additemedit.html" id="addNew" style="display:none;">Add New Item</a>
+		</nav>
+		<!--Form Tag-->
+		<form action="#" method="post" id="songForm" >
+			<fieldset id="listFieldset">
+				<legend>Select Playlist</legend>
+				<span>* fields are required.</span>
+				<ul id="errors"></ul>
+				<ul id="questions">
+					<li id="select"><label for="group">*Add to Playlist:</label><br /></li>
+					<div align=" left ">
+						<select name="My Playlists">
+							<option value="Mellow">Smooth Sounds</option>
+							<option value="Hard">Rock Hard</option>
+							<option value="Sensual">Sensual Beats</option>
+						</select>
+					</div>
+					<li><label for="aname">Artist: </label><input type="text" name="aname" placeholder="Artist Name"/></li>
+					<li><label for="alname">Album: </label><input type="text" name="alname" placeholder="Album Name"/></li>
+					<li><label for="sname">*Song: </label><input type="text" name="sname" placeholder="Song Name"/></li><br />
+					<li><label for="favorite">Is this one of your favorites?:</label>
+						<ul class="checkbox">
+							<li><input type="radio" id="yes" value="Yes" name="favorite" /><label for="yes">Yes</label></li>
+							<li><input type="radio" id="no" value="No" name="favorite" /><label for="no">No</label></li>
+						</ul>
+					</li>
+					<li><input type="checkbox" id="favorite" value="Yes" class="checkbox" /></li>
+					<li><label for="Like">Like</label><input type="range" min="1" max="10" id="like" /><label><br />
+					<li><label for="date">Date Playlist Created</label><input type="date" id="date"</li><br />
+					<li><label for="notes">Notes: </label><textarea name="notes" placeholder="Add a Few Notes..." /></textarea></li>
+				</ul>
+			</fieldset>
+			<input type="submit" value="Save Song" id="submit" /><br />
+		</form>
+		<script language="javascript" src="json.js"></script>
+		<script language="javascript" src="main.js"></script>
+		</fieldset>
+	</body>
+</html>
