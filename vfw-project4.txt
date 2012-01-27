@@ -1,0 +1,7 @@
+Project 4
+Latasha Mallory
+Term 1201
+
+git@github.com:latashamallory/mallory_latasha_project4.git
+https://latashamallory@github.com/latashamallory/mallory_latasha_project4.git
+git://github.com/latashamallory/mallory_latasha_project4.git
